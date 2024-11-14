@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Address</title>
+  <!-- <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet"> -->
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+    rel="stylesheet">
+
+
+  <style>
+    @font-face {
+      font-family: 'CustomFont';
+      /* Choose a name for your font */
+      src: url('/fonts/Aesthetic-Regular.otf') format('woff2');
+      /* WOFF2 file for modern browsers */
+      /* url('fonts/custom-font.woff') format('woff');    */
+      font-weight: normal;
+
+
+
+
+    }
+
+
+    #caption {
+
+      font-family: 'CustomFont';
+      margin-left: 10px;
+
+    }
+
+    #brand-name {
+
+      font-family: 'CustomFont';
+      font-weight: 400;
+      font-style: normal;
+    }
+
+    /* 
+      @media (max-width: 576px) {
+    #custom-img {
+        width: 100%;
+        aspect-ratio: 4 / 3;
+    } */
+
+
+
+
+    #btn-1,
+    #btn-2 {
+
+      font-family: "CustomFont";
+      font-weight: 400;
+      font-style: lighter;
+
+    }
+
+
+
+    #header-btn-1,
+    #header-btn-2 {
+
+
+      font-family: 'CustomFont';
+      display: inline-block;
+
+    }
+
+    #custom-img {
+
+
+      /* margin-left: 10px; */
+
+      margin-left: 10px;
+
+    }
+
+    #custom-img-2 {
+
+      margin-left: 10px;
+
+    }
+
+    /* .custom-navbar {
+
+      background-color: rgba(255, 255, 255, 0.868);
+      backdrop-filter: blur(15px);
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); 
+
+    } */
+
+    /* body {
+      padding: 25px;
+      background-color: white;
+      color: black;
+      font-size: 25px;
+    } */
+
+
+
+
+
+
+
+    @media (max-width:1536px) {
+
+
+      #caption {
+
+        font-size: 80px;
+      }
+
+    }
+
+    @media (max-width:1024px) {
+
+
+      #caption {
+
+        font-size: 60px;
+      }
+    }
+
+
+    @media (max-width:768px) {
+
+
+      #caption {
+
+        font-size: 50px;
+      }
+
+      #header-btn-1 {
+
+        width: 100%;
+
+      }
+
+      @media (max-width:320px) {
+
+
+        #header-btn-1 {
+
+          margin-left: 10px;
+
+        }
+
+
+      }
+
+
+    }
+
+
+    ::selection{
+
+
+      background-color: #bd8a5b;
+      color: #ebefef;
+    }
+
+
+
+    /* #custom-img-2{
+
+    width: 90%;
+  } */
+  </style>
+
+</head>
+
+<body class="dark-mode">
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top custom-navbar ">
+    <div class="container-fluid">
+
+      <a class="navbar-brand fs-1" href="#" id="brand-name">Address.</a>
+
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <!-- <ul class="navbar-nav ms-start fs-5 d-flex">
+              <li class="nav-item pt-3 fs-5">
+                <a class="nav-link active " aria-current="page" href="#">Men</a>
+              </li>
+              <li class="nav-item pt-3 fs-5">
+                <a class="nav-link active" href="#">Women</a>
+                </li>
+                <li class="nav-item pt-3 fs-5">
+                  <a class="nav-link active" href="#">Kids</a>
+                </li>
+                <li class="nav-item pt-3 fs-5">
+                  <a class="nav-link active" href="#">About</a>
+                </li>
+              </ul> -->
+        <div class="d-flex flex-row justify-content-around" style="margin-left: auto;">
+          <!-- <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="M480-120q-150 0-255-105T120-480q0-150 105-255t255-105q14 0 27.5 1t26.5 3q-41 29-65.5 75.5T444-660q0 90 63 153t153 63q55 0 101-24.5t75-65.5q2 13 3 26.5t1 27.5q0 150-105 255T480-120Zm0-80q88 0 158-48.5T740-375q-20 5-40 8t-40 3q-123 0-209.5-86.5T364-660q0-20 3-40t8-40q-78 32-126.5 102T200-480q0 116 82 198t198 82Zm-10-270Z"/></svg>
+          <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="M480-360q50 0 85-35t35-85q0-50-35-85t-85-35q-50 0-85 35t-35 85q0 50 35 85t85 35Zm0 80q-83 0-141.5-58.5T280-480q0-83 58.5-141.5T480-680q83 0 141.5 58.5T680-480q0 83-58.5 141.5T480-280ZM200-440H40v-80h160v80Zm720 0H760v-80h160v80ZM440-760v-160h80v160h-80Zm0 720v-160h80v160h-80ZM256-650l-101-97 57-59 96 100-52 56Zm492 496-97-101 53-55 101 97-57 59Zm-98-550 97-101 59 57-100 96-56-52ZM154-212l101-97 55 53-97 101-59-57Zm326-268Z"/></svg> -->
+          <button class="btn  mt-2 mx-3 rounded-0 px-3  " style="background-color:#ebefef;" id="btn-1">Login</button>
+          <!-- <button class="btn mt-2 text-white rounded-0" style="background-color:#bd8a5b;" id="btn-2" >Sign Up</button> -->
+          <a href="/src/another-form.html" class="btn mt-2 text-white rounded-0" style="background-color:#bd8a5b;" id="btn-2" >Sign Up</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+
+  <header class="container-fluid row" id="hero-container">
+
+    <div class="col-12 col-xxl-4 col-lg-4 col-md-6" id="img-div-1">
+      <img src="./main/hm-brand-1.jpeg" alt="" class="img-fluid" id="custom-img" onmouseover="bigImg(this)"
+        onmouseout="normalImg(this)">
+    </div>
+    <div class="col-12 col-xxl-4 col-lg-4 col-md-6" id="img-div-2">
+      <img src="./main/hm-brand-2.webp" alt="" class="img-fluid" id="custom-img-2" onmouseover="secondBigImg(this)"
+        onmouseout="secondNormalImg(this)">
+    </div>
+    <div class="col-12 col-xxl-4 col-lg-4 col-md-12 text-center">
+      <p id="caption">Where fashion meets you.</p>
+      <button class="btn px-5 py-2 mb-2 rounded-0" style="background-color: #bd8a5b; color: #ebefef;"
+        id="header-btn-1">Explore</button>
+      <button class="btn px-5 py-2 mb-2 rounded-0" style="background-color: #ebefef;" id="header-btn-1">Shop</button>
+    </div>
+  </header>
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="./script.js"></script>
+
+</body>
+
+</html>
